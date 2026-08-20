@@ -1,0 +1,5 @@
+out_path = r'c:\\Users\\HP\\OneDrive\\Documents\\Auto dataset\\models'
+os.makedirs(out_path, exist_ok=True)
+model_file = os.path.join(out_path, 'pm_pipeline.joblib')
+joblib.dump(clf, model_file)
+print('Saved pipeline to', model_file)
