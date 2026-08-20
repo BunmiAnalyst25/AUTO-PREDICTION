@@ -18,8 +18,8 @@ This project implements a predictive maintenance model using machine learning te
 To set up the project, clone the repository and install the required packages:
 
 ```bash
-git [https://github.com/BunmiAnalyst25/AUTO-PREDICTION.git]
-cd auto-prediction
+git clone https://github.com/BunmiAnalyst25/AUTO-PREDICTION.git
+cd AUTO-PREDICTION
 pip install -r requirements.txt
 ```
 
